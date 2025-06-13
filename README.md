@@ -1,2 +1,44 @@
 # design-components
-List of components available for Pega Platform design time
+
+List of components available for Pega Platform Design Time
+
+Format of the index.json
+
+## index.json Schema
+
+The `index.json` file contains information about available packages, their versions, and associated resources.
+
+```json
+{
+  "packages": [
+    // Array of package definitions
+    {
+      "package": "package-name", // Name of the package (e.g., "blueprint-import")
+      "versions": [
+        // Array of available versions for this package
+        {
+          "platformVersion": "xx.x.x", // Compatibility with Pega Platform version (e.g., "23.1.0" or "23.1") - Could be a comma separated list like "8.8,23.1,..."
+          "latestVersion": "x.x.x", // Latest version of this package (e.g., "1.0.1")
+          "updateDate": "YYYY-MM-DD", // Date when package was last updated
+          "binaries": [
+            // Array of downloadable binary files - You should have at least one entry in the array
+            {
+              "name": "binary-name", // Name of the binary
+              "url": "download-url" // URL to download the binary file
+            }
+          ],
+          "documentation": [
+            // Array of documentation resources
+            {
+              "name": "doc-name", // Name of the documentation ("README" is required for documentation - you can other types of documentations)
+              "url": "doc-url" // URL to access the documentation
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+Each package can have multiple versions supporting different Pega Platform releases, with their respective binaries and documentation links.

@@ -10,13 +10,13 @@
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/23.1.0/BPImport-231-20250212T125041_GMT.zip"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/23.1.0/1.0.1/BPImport-231-20250212T125041_GMT.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/23.1.0/README.md"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/23.1.0/1.0.1/README.md"
                         }
                     ]
                 },
@@ -27,13 +27,13 @@
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.1.0/BPImport-241-20250513T151859_GMT.zip"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.1.0/1.0.1/BPImport-241-20250513T151859_GMT.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.1.0/README.md"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.1.0/1.0.1/README.md"
                         }
                     ]
                 },
@@ -44,13 +44,13 @@
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.2.0/BPImport-242-20250212T125041_GMT.zip"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.2.0/1.0.1/BPImport-242-20250212T125041_GMT.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.2.0/README.md"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.2.0/1.0.1/README.md"
                         }
                     ]
                 }
@@ -122,7 +122,7 @@
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/assets/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_1.0.8"
+                            "url": "https://ricmars.github.io/design-components/assets/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_1.0.8.zip"
                         }
                     ],
                     "documentation": [

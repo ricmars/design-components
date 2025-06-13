@@ -1,10 +1,14 @@
 # design-components
 
-List of components available for Pega Platform Design Time
+List of components available for Pega Platform Design Time.
+
+To view the list of components: [https://ricmars.github.io/design-components/](https://ricmars.github.io/design-components/)
+
+For API access, use : [https://ricmars.github.io/design-components/index.json](https://ricmars.github.io/design-components/index.json)
 
 ## index.json Schema
 
-The `index.json` file contains information about available packages, their versions, and associated resources.
+The `[index.json](https://ricmars.github.io/design-components/index.json)` file contains information about available packages, their versions, and associated resources.
 
 ```json
 {

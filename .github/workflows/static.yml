@@ -31,14 +31,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
-          lfs: true # Fetch large files
-      - name: ❌ Turn off LFS
-        run: >-
-          git lfs uninstall;
-          rm -Rf .git;
-          rm .gitattributes;
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

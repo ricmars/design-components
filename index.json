@@ -10,7 +10,7 @@
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/23.1.0/1.0.1/BPImport-231-20250212T125041_GMT.zip"
+                            "url": "https://github.com/ricmars/design-components/raw/refs/heads/main/assets/blueprint-import/23.1.0/1.0.0/BPImport-231-20250212T125041_GMT.zip?download="
                         }
                     ],
                     "documentation": [
@@ -27,7 +27,7 @@
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.1.0/1.0.1/BPImport-241-20250513T151859_GMT"
+                            "url": "https://github.com/ricmars/design-components/raw/refs/heads/main/assets/blueprint-import/24.1.0/1.0.0/BPImport-241-20250212T125041_GMT.zip?download="
                         }
                     ],
                     "documentation": [
@@ -44,7 +44,7 @@
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.2.0/1.0.1/BPImport-242-20250513T151859_GMT"
+                            "url": "https://github.com/ricmars/design-components/raw/refs/heads/main/assets/blueprint-import/24.2.0/1.0.0/BPImport-242-20250212T125041_GMT.zip?download="
                         }
                     ],
                     "documentation": [
@@ -122,7 +122,7 @@
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/assets/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_1.0.8.zip"
+                            "url": "https://github.com/ricmars/design-components/raw/refs/heads/main/assets/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_1.0.8.zip?download="
                         }
                     ],
                     "documentation": [
@@ -132,7 +132,7 @@
                         },
                         {
                             "name": "INSTALL_GUIDE",
-                            "url": "https://ricmars.github.io/design-components/assets/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_InstallGuide_1.0.8.pdf"
+                            "url": "https://github.com/ricmars/design-components/raw/refs/heads/main/assets/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_InstallGuide_1.0.8.pdf?download="
                         }
                     ]
                 }

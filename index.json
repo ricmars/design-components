@@ -1,0 +1,116 @@
+{
+    "packages": [
+        {
+            "package": "blueprint-import",
+            "versions": [
+                {
+                    "platformVersion": "23.1.0",
+                    "version": "1.0.1",
+                    "updateDate": "2023-01-15",
+                    "binaries": [
+                        {
+                            "name": "blueprint-core",
+                            "url": ""
+                        }
+                    ],
+                    "documentation": [
+                        {
+                            "name": "README",
+                            "url": ""
+                        }
+                    ]
+                },
+                {
+                    "platformVersion": "24.1.0",
+                    "version": "1.0.1",
+                    "updateDate": "2023-01-15",
+                    "binaries": [
+                        {
+                            "name": "blueprint-core",
+                            "url": ""
+                        }
+                    ],
+                    "documentation": [
+                        {
+                            "name": "README",
+                            "url": ""
+                        }
+                    ]
+                },
+                {
+                    "platformVersion": "24.2.0",
+                    "version": "1.0.1",
+                    "updateDate": "2023-01-15",
+                    "binaries": [
+                        {
+                            "name": "blueprint-core",
+                            "url": ""
+                        }
+                    ],
+                    "documentation": [
+                        {
+                            "name": "README",
+                            "url": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "package": "constellation-ui-gallery",
+            "versions": [
+                {
+                    "platformVersion": "23.1.0",
+                    "version": "1.0.1",
+                    "updateDate": "2023-01-15",
+                    "binaries": [
+                        {
+                            "name": "components-RAP",
+                            "url": ""
+                        }
+                    ],
+                    "documentation": [
+                        {
+                            "name": "CHANGELOG",
+                            "url": ""
+                        }
+                    ]
+                },
+                {
+                    "platformVersion": "24.1.0",
+                    "version": "1.0.1",
+                    "updateDate": "2023-01-15",
+                    "binaries": [
+                        {
+                            "name": "components-RAP",
+                            "url": ""
+                        }
+                    ],
+                    "documentation": [
+                        {
+                            "name": "CHANGELOG",
+                            "url": ""
+                        }
+                    ]
+                },
+                {
+                    "platformVersion": "24.2.0",
+                    "version": "1.0.1",
+                    "updateDate": "2023-01-15",
+                    "binaries": [
+                        {
+                            "name": "components-RAP",
+                            "url": ""
+                        }
+                    ],
+                    "documentation": [
+                        {
+                            "name": "README",
+                            "url": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

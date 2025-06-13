@@ -5,17 +5,17 @@
             "versions": [
                 {
                     "platformVersion": "23.1.0",
-                    "version": "1.0.1",
+                    "latestVersion": "1.0.1",
                     "updateDate": "2023-01-15",
                     "binaries": [
                         {
                             "name": "blueprint-core",
-                            "url": ""
+                            "url": "https://ricmars.github.io/design-components/blueprint-import/23.1.0/BPImport-231-20250212T125041_GMT.zip"
                         }
                     ],
                     "documentation": [
                         {
-                            "name": "README",
+                            "name": "https://ricmars.github.io/design-components/blueprint-import/23.1.0/README",
                             "url": ""
                         }
                     ]
@@ -27,12 +27,12 @@
                     "binaries": [
                         {
                             "name": "blueprint-core",
-                            "url": ""
+                            "url": "https://ricmars.github.io/design-components/blueprint-import/24.1.0/BPImport-231-20250212T125041_GMT.zip"
                         }
                     ],
                     "documentation": [
                         {
-                            "name": "README",
+                            "name": "https://ricmars.github.io/design-components/blueprint-import/24.1.0/README",
                             "url": ""
                         }
                     ]
@@ -44,12 +44,12 @@
                     "binaries": [
                         {
                             "name": "blueprint-core",
-                            "url": ""
+                            "url": "https://ricmars.github.io/design-components/blueprint-import/24.2.0/BPImport-231-20250212T125041_GMT.zip"
                         }
                     ],
                     "documentation": [
                         {
-                            "name": "README",
+                            "name": "https://ricmars.github.io/design-components/blueprint-import/24.2.0/README",
                             "url": ""
                         }
                     ]
@@ -66,47 +66,47 @@
                     "binaries": [
                         {
                             "name": "components-RAP",
-                            "url": ""
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/ConstellationUIGallery_1_0_5_COMPONENTS_ONLY.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "CHANGELOG",
-                            "url": ""
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/README.md"
                         }
                     ]
                 },
                 {
                     "platformVersion": "24.1.0",
-                    "version": "1.0.1",
+                    "version": "2.0.4",
                     "updateDate": "2023-01-15",
                     "binaries": [
                         {
                             "name": "components-RAP",
-                            "url": ""
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/ConstellationUIGallery_2_0_4_COMPONENTS_ONLY.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "CHANGELOG",
-                            "url": ""
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/README.md"
                         }
                     ]
                 },
                 {
                     "platformVersion": "24.2.0",
-                    "version": "1.0.1",
+                    "version": "3.0.6",
                     "updateDate": "2023-01-15",
                     "binaries": [
                         {
                             "name": "components-RAP",
-                            "url": ""
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/ConstellationUIGallery_3_0_6_COMPONENTS_ONLY.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": ""
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/README.md"
                         }
                     ]
                 }

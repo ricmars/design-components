@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Components</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f7f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #eee;
+        }
+        .card {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        .loading {
+            text-align: center;
+            font-size: 18px;
+            margin: 50px 0;
+            color: #7f8c8d;
+        }
+        .version-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            background-color: #3498db;
+            color: white;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        .update-date {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Design Components</h1>
+        <div id="loading" class="loading">Loading packages...</div>
+        <div id="error" style="display: none;" class="error-message"></div>
+        <div id="packages-container"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchPackages();
+        });
+
+        async function fetchPackages() {
+            try {
+                const response = await fetch('./index.json');
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch packages: ${response.status} ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                displayPackages(data.packages);
+            } catch (error) {
+                console.error('Error loading packages:', error);
+                document.getElementById('loading').style.display = 'none';
+                const errorElement = document.getElementById('error');
+                errorElement.textContent = `Error loading packages: ${error.message}`;
+                errorElement.style.display = 'block';
+            }
+        }
+
+        function displayPackages(packages) {
+            const packagesContainer = document.getElementById('packages-container');
+            document.getElementById('loading').style.display = 'none';
+            
+            if (!packages || packages.length === 0) {
+                packagesContainer.innerHTML = '<p>No packages available.</p>';
+                return;
+            }
+
+            packages.forEach(package => {
+                const packageCard = document.createElement('div');
+                packageCard.className = 'card';
+                
+                // Format package name for display (capitalize and replace hyphens with spaces)
+                const formattedName = package.package
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                
+                packageCard.innerHTML = `
+                    <h2>${formattedName}</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Platform Version</th>
+                                <th>Package Version</th>
+                                <th>Last Updated</th>
+                                <th>Downloads</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${generateVersionRows(package.versions)}
+                        </tbody>
+                    </table>
+                `;
+                
+                packagesContainer.appendChild(packageCard);
+            });
+        }
+
+        function generateVersionRows(versions) {
+            return versions.map(version => {
+                // Format date for better display
+                const updateDate = new Date(version.updateDate);
+                const formattedDate = updateDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+                
+                // Generate binary download links
+                const binaryLinks = version.binaries.map(binary => 
+                    `<a href="${binary.url}" target="_blank">${binary.name}</a>`
+                ).join('<br>');
+                
+                // Generate documentation links
+                const docLinks = version.documentation.map(doc => 
+                    `<a href="${doc.url}" target="_blank">${doc.name}</a>`
+                ).join('<br>');
+                
+                return `
+                <tr>
+                    <td>${version.platformVersion}</td>
+                    <td>
+                        ${version.latestVersion}
+                        <span class="version-badge">Latest</span>
+                    </td>
+                    <td class="update-date">${formattedDate}</td>
+                    <td>${binaryLinks}</td>
+                    <td>${docLinks}</td>
+                </tr>`;
+            }).join('');
+        }
+    </script>
+</body>
+</html>

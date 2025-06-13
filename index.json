@@ -6,51 +6,51 @@
                 {
                     "platformVersion": "23.1.0",
                     "latestVersion": "1.0.1",
-                    "updateDate": "2023-01-15",
+                    "updateDate": "2025-06-13",
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/blueprint-import/23.1.0/BPImport-231-20250212T125041_GMT.zip"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/23.1.0/BPImport-231-20250212T125041_GMT.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://ricmars.github.io/design-components/blueprint-import/23.1.0/README.md"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/23.1.0/README.md"
                         }
                     ]
                 },
                 {
                     "platformVersion": "24.1.0",
                     "latestVersion": "1.0.1",
-                    "updateDate": "2023-01-15",
+                    "updateDate": "2025-06-13",
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/blueprint-import/24.1.0/BPImport-231-20250212T125041_GMT.zip"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.1.0/BPImport-241-20250513T151859_GMT.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://ricmars.github.io/design-components/blueprint-import/24.1.0/README.md"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.1.0/README.md"
                         }
                     ]
                 },
                 {
                     "platformVersion": "24.2.0",
                     "latestVersion": "1.0.1",
-                    "updateDate": "2023-01-15",
+                    "updateDate": "2025-06-13",
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/blueprint-import/24.2.0/BPImport-231-20250212T125041_GMT.zip"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.2.0/BPImport-242-20250212T125041_GMT.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://ricmars.github.io/design-components/blueprint-import/24.2.0/README.md"
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.2.0/README.md"
                         }
                     ]
                 }
@@ -61,42 +61,42 @@
             "versions": [
                 {
                     "platformVersion": "23.1.0",
-                    "latestVersion": "1.0.1",
-                    "updateDate": "2023-01-15",
+                    "latestVersion": "1.0.10",
+                    "updateDate": "2024-08-28",
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/ConstellationUIGallery_1_0_5_COMPONENTS_ONLY.zip"
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/1.0.10/ConstellationUIGallery_1_0_10_COMPONENTS_ONLY.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/README.md"
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/tag/1.0.10"
                         }
                     ]
                 },
                 {
                     "platformVersion": "24.1.0",
                     "latestVersion": "2.0.4",
-                    "updateDate": "2023-01-15",
+                    "updateDate": "2025-03-23",
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/ConstellationUIGallery_2_0_4_COMPONENTS_ONLY.zip"
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/2.0.4/ConstellationUIGallery_2_0_4_COMPONENTS_ONLY.zip"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/README.md"
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/tag/2.0.4"
                         }
                     ]
                 },
                 {
                     "platformVersion": "24.2.0",
                     "latestVersion": "3.0.6",
-                    "updateDate": "2023-01-15",
+                    "updateDate": "2025-06-01",
                     "binaries": [
                         {
                             "name": "MAIN",
@@ -106,7 +106,7 @@
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/download/3.0.6/README.md"
+                            "url": "https://github.com/pegasystems/constellation-ui-gallery/releases/tag/3.0.6"
                         }
                     ]
                 }
@@ -116,65 +116,23 @@
             "package": "constellation-modernization-assistant",
             "versions": [
                 {
-                    "platformVersion": "23.1",
+                    "platformVersion": "8.7,8.8,23.1,24.1,24.2",
                     "latestVersion": "1.0.8",
-                    "updateDate": "2023-01-15",
+                    "updateDate": "2025-06-12",
                     "binaries": [
                         {
                             "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_1.0.8"
+                            "url": "https://ricmars.github.io/design-components/assets/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_1.0.8"
                         }
                     ],
                     "documentation": [
                         {
                             "name": "README",
-                            "url": "https://ricmars.github.io/design-components/constellation-modernization-assistant/1.0.8/README.md"
+                            "url": "https://ricmars.github.io/design-components/assets/constellation-modernization-assistant/1.0.8/README.md"
                         },
                         {
                             "name": "INSTALL_GUIDE",
-                            "url": "https://ricmars.github.io/design-components/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_InstallGuide_1.0.8.pdf"
-                        }
-                    ]
-                },
-                {
-                    "platformVersion": "24.1",
-                    "latestVersion": "1.0.8",
-                    "updateDate": "2023-01-15",
-                    "binaries": [
-                        {
-                            "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_1.0.8"
-                        }
-                    ],
-                    "documentation": [
-                        {
-                            "name": "README",
-                            "url": "https://ricmars.github.io/design-components/constellation-modernization-assistant/1.0.8/README.md"
-                        },
-                        {
-                            "name": "INSTALL_GUIDE",
-                            "url": "https://ricmars.github.io/design-components/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_InstallGuide_1.0.8.pdf"
-                        }
-                    ]
-                },
-                {
-                    "platformVersion": "24.2",
-                    "latestVersion": "1.0.8",
-                    "updateDate": "2023-01-15",
-                    "binaries": [
-                        {
-                            "name": "MAIN",
-                            "url": "https://ricmars.github.io/design-components/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_1.0.8"
-                        }
-                    ],
-                    "documentation": [
-                        {
-                            "name": "README",
-                            "url": "https://ricmars.github.io/design-components/constellation-modernization-assistant/1.0.8/README.md"
-                        },
-                        {
-                            "name": "INSTALL_GUIDE",
-                            "url": "https://ricmars.github.io/design-components/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_InstallGuide_1.0.8.pdf"
+                            "url": "https://ricmars.github.io/design-components/assets/constellation-modernization-assistant/1.0.8/PegaConstellationModernizationAssistant_InstallGuide_1.0.8.pdf"
                         }
                     ]
                 }

@@ -15,18 +15,20 @@ The [index.json](https://ricmars.github.io/design-components/index.json) file co
   "packages": [
     // Array of package definitions
     {
-      "package": "package-name", // Name of the package (e.g., "blueprint-import")
+      "package": "package-name", // Name of the package - use dash for word separation - all lowercase (e.g., "blueprint-import")
       "versions": [
         // Array of available versions for this package
         {
-          /* Compatibility with Pega Platform version (e.g., "23.1.0" or "23.1") - Could be a comma separated list like "8.8,23.1,...*/
+          // Compatibility with Pega Platform version (e.g., "23.1.0" or "23.1")
+          // For multi-version support, use a comma separated list like "8.8,23.1,...
           "platformVersion": "xx.x.x",
           "latestVersion": "x.x.x", // Latest version of this package (e.g., "1.0.1")
           "updateDate": "YYYY-MM-DD", // Date when package was last updated
           "binaries": [
             // Array of downloadable binary files - You should have at least one entry in the array
             {
-              // Name of the binary ("MAIN" is required - you can include other types of binaries) */
+              // Name of the binary ("MAIN" is required)
+              // You can include other types of binaries with link if needed
               "name": "binary-name",
               "url": "binary-url" // URL to download the binary file
             }
@@ -34,9 +36,10 @@ The [index.json](https://ricmars.github.io/design-components/index.json) file co
           "documentation": [
             // Array of documentation resources
             {
-              /* Name of the documentation ("README" is required for documentation - you can include other types of documentations) */
+              // Name of the documentation ("README" is required for documentation)
+              // You can include other types of documentations and link if needed
               "name": "doc-name",
-              "url": "doc-url" /* URL to access the documentation - could be from this repo or from a different domain */
+              "url": "doc-url" // URL to access the documentation - could be from this repo or from a different domain
             }
           ]
         }

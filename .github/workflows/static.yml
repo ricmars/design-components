@@ -32,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-        lfs: true # Fetch large files
+          lfs: true # Fetch large files
       - name: ❌ Turn off LFS
         run: >-
           git lfs uninstall;

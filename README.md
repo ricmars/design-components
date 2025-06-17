@@ -15,6 +15,7 @@ The [index.json](https://ricmars.github.io/design-components/index.json) file co
   "packages": [
     // Array of package definitions
     {
+      "name": "name", // Friendly name of the package to display to user
       "package": "package-name", // Name of the package - use dash for word separation - all lowercase (e.g., "blueprint-import")
       "versions": [
         // Array of available versions for this package

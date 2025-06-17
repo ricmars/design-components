@@ -1,6 +1,7 @@
 {
     "packages": [
         {
+            "name": "Blueprint Import Wizard",
             "package": "blueprint-import",
             "versions": [
                 {
@@ -53,10 +54,28 @@
                             "url": "https://ricmars.github.io/design-components/assets/blueprint-import/24.2.0/1.0.1/README.md"
                         }
                     ]
+                },
+                {
+                    "platformVersion": "25.1.0",
+                    "latestVersion": "1.0.1",
+                    "updateDate": "2025-06-13",
+                    "binaries": [
+                        {
+                            "name": "MAIN",
+                            "url": "https://github.com/ricmars/design-components/raw/refs/heads/main/assets/blueprint-import/25.1.0/1.0.1/BPImport-251-20250513T151859_GMT.zip?download="
+                        }
+                    ],
+                    "documentation": [
+                        {
+                            "name": "README",
+                            "url": "https://ricmars.github.io/design-components/assets/blueprint-import/25.1.0/1.0.1/README.md"
+                        }
+                    ]
                 }
             ]
         },
         {
+            "name": "Constellation UI Gallery Components",
             "package": "constellation-ui-gallery",
             "versions": [
                 {
@@ -113,6 +132,7 @@
             ]
         },
         {
+            "name": "Constellation Modernization Assistant",
             "package": "constellation-modernization-assistant",
             "versions": [
                 {
